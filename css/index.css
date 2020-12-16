@@ -1,0 +1,313 @@
+.navbar{
+    max-width: 1500px;
+    background-color: #F0FFF0;
+    padding: 30px 0 20px 450px;
+}
+.navbarli{
+    display: inline-block;
+    margin-right: 50px;
+   
+}
+.navbarli a{
+    color: #7FFFD4;
+    font-size: 18px;
+   
+}
+.navbarli:hover {
+    font-size:25px;
+    background-color: #20B2AA; 
+
+}
+.container{
+    max-width: 1500px;
+    position: relative;
+}
+.box {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position:absolute;
+    animation-name: box;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-iteration-count: infinite ;
+    animation-timing-function: linear;
+}
+.box1 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position:absolute;
+    animation-name: boxOne;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-iteration-count: infinite ;
+    animation-timing-function: linear;
+}
+.box2{
+    width:690px;
+    width: 100%;
+    height: 270px;
+    position: absolute;
+    animation-name: boxTwo;
+    animation-duration: 4s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.box3{
+    max-width:690px;
+    width: 100%;
+    height: 270px;
+    position: absolute;
+    animation-name: boxThree;
+    animation-duration: 4s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+.box4 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position:absolute;
+    animation-name: boxFour;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.box5 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position:absolute;
+    animation-name: boxFive;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+h2{
+    position: absolute;
+    font-size: 80px;
+    color: #4B0082;
+    left: 500px;
+    top: 400px;
+}
+@keyframes box {
+    0% {
+        left : 0;
+        top: 100px;
+        background-color: #DC143C;
+    }
+    20%{
+        left: 200px;
+        top: 100px;
+        background-color: #FF1493;
+    }
+    40% {
+        left: 300px;
+        top: 100px;
+        background-color: #FF69B4;
+
+    }
+    60% {
+        left: 350px;
+        top: 100px;
+        background-color: #FFB6C1;
+    }
+    80%{
+        left: 250px;
+        top: 200px;
+        background-color: #FFC0CB;
+    }
+    100% {
+        left: 300px;
+        top: 200px;
+        background-color: #FFE4E1;
+    }
+}
+@keyframes boxOne {
+    0% {
+        right: 0;
+        top: 100px;
+        background-color: #DC143C;
+    }
+    20%{
+        right: 200px;
+        top: 100px;
+        background-color: #FF1493;
+    }
+    40% {
+        right: 300px;
+        top: 100px;
+        background-color: #FF69B4;
+
+    }
+    60% {
+        right: 350px;
+        top: 100px;
+        background-color: #FFB6C1;
+    }
+    80%{
+        right: 250px;
+        top: 200px;
+        background-color: #FFC0CB;
+    }
+    100% {
+        right: 300px;
+        top: 200px;
+        background-color: #FFE4E1;
+    }
+}
+@keyframes boxTwo {
+    0% {
+        width: 100px;
+        right: 0;
+        top: 300px;
+        background-color: #B0E0E6;
+    }
+    20%{
+        width: 200px !important;
+        top: 300px;
+        background-color: #B0E0E6;
+    }
+    40% {
+        width: 300px !important;
+        top: 300px;
+        background-color: #B0E0E6;
+
+    }
+    60% {
+        width: 400px !important;
+        top: 300px;
+        background-color: #B0E0E6;
+    }
+    80%{
+        width: 500px !important;
+        top: 300px;
+        background-color: #B0E0E6;
+    }
+    100% {
+        width: 690px !important;
+        right: 0px;
+        top: 300px;
+        background-color: #B0E0E6;
+    }
+}
+@keyframes boxThree {
+    0% {
+        width: 100px;
+        left: 0;
+        top: 300px;
+        background-color: #B0E0E6;
+    }
+    20%{
+        width: 200px !important;
+        top: 300px;
+        background-color: #B0E0E6;
+    }
+    40% {
+        width: 300px !important;
+        top: 300px;
+        background-color: #B0E0E6;
+
+    }
+    60% {
+        width: 400px !important;
+        top: 300px;
+        background-color: #B0E0E6;
+    }
+    80%{
+        width: 500px !important;
+        top: 300px;
+        background-color: #B0E0E6;
+    }
+    100% {
+        width: 690px !important;
+        left: 0px;
+        top: 300px;
+        background-color: #B0E0E6;
+    }
+}
+@keyframes boxFour {
+    0% {
+        left : 0;
+        top: 200px;
+        background-color: #F4A460;
+    }
+    20%{
+        left: 200px;
+        top: 200px;
+        background-color: #FFDEAD;
+    }
+    40% {
+        left: 300px;
+        top: 200px;
+        background-color: #FFE4B5;
+
+    }
+    60% {
+        left: 380px ;
+        top: 200px;
+        background-color: #FFFACD;
+    }
+    80%{
+        left: 500px ;
+        top: 100px;
+        background-color: #FFDAB9;
+    }
+    100% {
+        left: 630px ;
+        top: 100px;
+        background-color: #FFEFD5;
+    }
+}
+@keyframes boxFive {
+    0% {
+        right: 0;
+        top: 200px;
+        background-color: #F4A460;
+    }
+    20%{
+        right: 200px;
+        top: 200px;
+        background-color: #FFDEAD;
+    }
+    40% {
+        right: 300px;
+        top: 200px;
+        background-color: #FFE4B5;
+
+    }
+    60% {
+        right: 380px;
+        top: 200px;
+        background-color: #FFFACD;
+    }
+    80%{
+        right: 500px;
+        top: 100px;
+        background-color: #FFDAB9;
+    }
+    100% {
+        right: 630px;
+        top: 100px;
+        background-color: #FFEFD5;
+    }
+}
